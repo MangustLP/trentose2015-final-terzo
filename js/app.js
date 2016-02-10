@@ -32,7 +32,7 @@ var ParlaModel = {
 
        var array_parole = phrase1.split(" ");
        alert(array_parole.length);
-       var score = 0;
+
        var i = 0;
        var j = 0;
 
@@ -63,6 +63,7 @@ var ParlaModel = {
                    
                }
            }
+       }
            
         
        else if (language == languages[2].name){ 
@@ -77,6 +78,7 @@ var ParlaModel = {
                    
                }
            }
+       }
         
         
    },
